@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/Trangchu">
+
+    <fragment
+        android:id="@+id/Trangchu"
+        android:name="com.example.loginsingup.HomeSP"
+        android:label="home_s_p"
+        tools:layout="@layout/fragment_home_s_p" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.loginsingup.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.loginsingup.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.example.loginsingup.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <activity
+        android:id="@+id/loginActivity2"
+        android:name="com.example.loginsingup.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+
+</navigation>

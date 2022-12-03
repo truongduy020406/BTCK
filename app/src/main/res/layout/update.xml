@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/de"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Update details"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/tvmasp"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/de"
+        android:layout_alignEnd="@+id/tvten"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="masp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/masanpham"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/de"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/tvmasp"
+        android:background="@drawable/rounder"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvten"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/de"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-113dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="234dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="tên sp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/tensanpham"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/de"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/tvmasp"
+        android:background="@drawable/rounder"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/de"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-113dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="Giá"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:id="@+id/giasanpham"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/de"
+        android:layout_marginTop="185dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/tvmasp"
+        android:background="@drawable/rounder"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/de"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-113dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:text="Giá"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/urlsanpham"
+        android:layout_width="223dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/de"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/tvmasp"
+        android:background="@drawable/rounder"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/boder"
+        android:gravity="center"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+</RelativeLayout>

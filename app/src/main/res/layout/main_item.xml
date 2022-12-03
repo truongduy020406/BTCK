@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="284dp"
+        android:layout_height="155dp"
+        android:background="@color/teal_200"
+        android:padding="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgl"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#ff000000"
+            app:civ_border_width="2dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/txtmasp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/imgl"
+            android:text="ma san oham"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtmasp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imgl"
+            android:text="name san pham"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtname"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/imgl"
+            android:text="gia san oham"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="141dp"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginEnd="-13dp"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/boder"
+            android:backgroundTint="@color/purple_200"
+            android:text="edit"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:id="@+id/btnxoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boder"
+            android:text="xoa"
+
+            android:textAllCaps="false"></Button>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        android:layout_marginTop="150dp">
+
+    </RelativeLayout>
+</RelativeLayout>

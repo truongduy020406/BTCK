@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Singup">
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_radius_l_r_bottom">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="208dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="81dp"
+            android:layout_marginBottom="42dp"
+            android:background="@drawable/images">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#6577a3"
+            android:layout_marginBottom="30dp"
+            android:text="Create Account"/>
+
+        <EditText
+            android:id="@+id/imail"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Name account..."/>
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="12dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Password..."/>
+        <EditText
+            android:id="@+id/confirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Repeat Password..."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/terms_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="I agree to the " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/terms_id"
+                android:text="Terms and Conditions."
+                android:textColor="#3a67d7" />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_radius"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="80dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:text="SIGN UP" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="Already have an account?"/>
+
+        <TextView
+            android:id="@+id/link_to_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#3a67d7"
+            android:text="Sign In from here"/>
+
+    </LinearLayout>
+
+</LinearLayout>

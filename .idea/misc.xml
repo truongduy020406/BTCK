@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/drawable/border_radius_search.xml" value="0.106" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/activity_addactibity.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/activity_cart.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/activity_details_model.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/cart_item.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/fragment_home_s_p.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/item_category.xml" value="0.209375" />
+        <entry key="..\:/HC3D_BTCK/app/src/main/res/layout/item_subj.xml" value="0.209375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/drawable/ic_baseline_back_hand_24.xml" value="0.2315" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/fragment_notification.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/fragment_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/fragment_settings.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/layout_navigation_header.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/layout/update.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/HC3D_BTCK/app/src/main/res/menu/search.xml" value="0.25" />
+        <entry key="..\:/Users/DANH/loginsingup/app/src/main/res/drawable/border_radius_layout.xml" value="0.1155" />
+        <entry key="..\:/Users/DANH/loginsingup/app/src/main/res/layout/activity_login.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/DANH/loginsingup/app/src/main/res/layout/activity_singup.xml" value="0.17708333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
